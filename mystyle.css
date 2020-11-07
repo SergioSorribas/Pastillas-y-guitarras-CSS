@@ -1,0 +1,167 @@
+body { 
+    background: url(fb.jpg) no-repeat;
+    background-color: #121212;
+    color: white; 
+}
+#titulo, #titulo a {
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 120px;
+    color: black;
+    -webkit-text-stroke: 2px #ffffff;
+}
+h1 { 
+    font: normal 40px "Trebuchet MS", Helvetica, Arial; 
+}
+h2 { 
+    font: normal 26px "Trebuchet MS", Helvetica, Arial; 
+    color:white; 
+    margin: 0 0 15px; 
+}
+h3 {
+    font: normal 26px "Trebuchet MS", Helvetica, Arial; 
+    margin: 0 0 20px; 
+}
+h4 {
+    font: normal 26px "Trebuchet MS", Helvetica, Arial; 
+    color: #dfdfdf; 
+    margin: 0 0 4px; 
+}
+p { 
+    margin: 0 0 15px;
+}
+
+
+li a, img { 
+    text-decoration: none;
+    display: block; 
+}
+img { 
+    outline: 0; 
+    border: 0; 
+}
+#wrapper { 
+    width: 984px; 
+    margin: auto; 
+}
+.clr { 
+    clear: both; 
+}
+#menu { 
+    height: 44px; 
+    padding: 5px 0 0 4px; 
+}
+	#menu li { 
+        font-size: 26px;
+        float: left; 
+        text-transform: uppercase; 
+    }
+		#menu li a { 
+            color: #ffffff; 
+            text-decoration: none;
+            margin: 0 50px 0 0; 
+        }
+            #menu li a:hover { 
+                color: rgb(0, 0, 0);
+                 
+            }
+    #pitch { 
+        background-color: #121212 no-repeat; 
+        height: 228px; 
+        padding: 60px 360px 0 30px; 
+    }
+        #pitch h1 { 
+            font-size: 26px; 
+            color: #ffffff; 
+        }
+.content { 
+    background:#000000c4 repeat; 
+    padding: 20px; 
+}
+.links { 
+    background: #263026cc;
+    color: #fff; 
+    padding: 5px 5px 10px;
+    width: 100px;
+    font-size: 15px;
+}
+.link { 
+    background: #00ffaacc; 
+    color: rgb(0, 0, 0); 
+    padding: 5px 10px; 
+    font-size: 1em; 
+}
+#main { 
+    padding: 20px; 
+}
+.col { 
+    float:center; 
+    margin: 0 30px 15px 0; 
+}
+        .col.last { 
+            float: left; 
+            width: 292px;
+            margin-right: 100px;
+        }
+        .short { 
+            padding: 0 0 15px 0; 
+            background-color: #121212a6 repeat-x left bottom; 
+        }
+        
+#singlecoil{
+    width: 300px;
+    float: right;
+    display: inline;
+    margin-right: 20px;
+}
+
+#psingle p{
+    padding: 60px 360px 0 30px; 
+}
+#phum {
+    width: 300px;
+    float: right;
+    display: block;
+    margin-right: 20px;
+}
+#phumbucker{
+    padding: 60px 360px 0 30px; 
+}
+#pactivas{
+    padding: 60px 360px 0 30px; 
+}
+#pactiva{
+    width: 400px;
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+.table{
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse ;
+    border:2px solid white;
+
+}
+    .table th {
+        font-weight: bold;
+        color: rgb(154, 163, 172);
+    }
+    .table td{
+        color: rgb(255, 255, 255);
+    }
+    .table a {
+        color: rgb(255, 255, 255);
+    }
+    .table a:hover {
+        color: rgb(0, 140, 255);
+    }
